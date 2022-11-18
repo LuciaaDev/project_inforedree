@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\register-request\register-request.component.spec.ts">
+    <testCase name="RegisterRequestComponent should create" duration="1931"/>
+    <testCase name="RegisterRequestComponent should save identification data" duration="1054"/>
+    <testCase name="RegisterRequestComponent should init geored with Geored" duration="1107"/>
+    <testCase name="RegisterRequestComponent should init geored with late" duration="1407"/>
+    <testCase name="RegisterRequestComponent should generate radio buttons" duration="1804"/>
+    <testCase name="RegisterRequestComponent should go to requestData" duration="2487"/>
+    <testCase name="RegisterRequestComponent should save request data" duration="2314"/>
+    <testCase name="RegisterRequestComponent request should be created correctly" duration="2608"/>
+    <testCase name="RegisterRequestComponent should go to GeoRed" duration="2683"/>
+    <testCase name="RegisterRequestComponent should go to upload files" duration="2963"/>
+    <testCase name="RegisterRequestComponent should create request number in requestService" duration="3370"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\register-request\components\request-data\request-data.component.spec.ts">
+    <testCase name="RequestDataComponent should create in External init" duration="1725"/>
+    <testCase name="RequestDataComponent should disable form when is internal" duration="998"/>
+    <testCase name="RequestDataComponent should init from visual internal" duration="1064"/>
+    <testCase name="RequestDataComponent should init from consult external" duration="1186"/>
+    <testCase name="RequestDataComponent should init from update external" duration="1495"/>
+    <testCase name="RequestDataComponent should disableAllInputs" duration="1865"/>
+    <testCase name="RequestDataComponent should disableVisualInputs" duration="2225"/>
+    <testCase name="RequestDataComponent should disableVisualExternalInputs" duration="2078"/>
+    <testCase name="RequestDataComponent should modifyInternalRequests" duration="2605"/>
+    <testCase name="RequestDataComponent should cancelInternalRequests" duration="2313"/>
+    <testCase name="RequestDataComponent should fill visual internal form and check it" duration="2603"/>
+    <testCase name="RequestDataComponent should get all params" duration="3171"/>
+    <testCase name="RequestDataComponent should get all provinces" duration="3194"/>
+    <testCase name="RequestDataComponent should check if requestType option is renewable" duration="2908"/>
+    <testCase name="RequestDataComponent should observe Consult Tramit Project" duration="3138"/>
+    <testCase name="RequestDataComponent should check num exp errors" duration="3457"/>
+    <testCase name="RequestDataComponent should check old num exp error" duration="3758"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\tags\create-tags\create-tags.component.spec.ts">
+    <testCase name="CreateTagsComponent should create" duration="1149"/>
+    <testCase name="CreateTagsComponent should add new reference tag" duration="808"/>
+    <testCase name="CreateTagsComponent should delete a tag" duration="789"/>
+    <testCase name="CreateTagsComponent should check if editable and fill form references" duration="1026"/>
+    <testCase name="CreateTagsComponent should check form errors" duration="1022"/>
+    <testCase name="CreateTagsComponent should check name errors" duration="1349"/>
+    <testCase name="CreateTagsComponent should check title errors" duration="1569"/>
+    <testCase name="CreateTagsComponent should check user errors" duration="1689"/>
+    <testCase name="CreateTagsComponent should check date errors" duration="1891"/>
+    <testCase name="CreateTagsComponent should check if reference value needed" duration="2190"/>
+    <testCase name="CreateTagsComponent should check if reference has been deleted" duration="2345"/>
+    <testCase name="CreateTagsComponent should save a new or modified tag" duration="2720"/>
+    <testCase name="CreateTagsComponent should fill tag object" duration="2471"/>
+    <testCase name="CreateTagsComponent should modify a tag" duration="2712"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\consult-request\consult-request.component.spec.ts">
+    <testCase name="ConsultRequestComponent should create" duration="1931"/>
+    <testCase name="ConsultRequestComponent should destroy" duration="1403"/>
+    <testCase name="ConsultRequestComponent should check for record number error" duration="1582"/>
+    <testCase name="ConsultRequestComponent should check for email error" duration="2163"/>
+    <testCase name="ConsultRequestComponent should check for phone error" duration="2583"/>
+    <testCase name="ConsultRequestComponent should check for Request error" duration="2888"/>
+    <testCase name="ConsultRequestComponent should check for subject error" duration="3197"/>
+    <testCase name="ConsultRequestComponent should check for date to error" duration="3635"/>
+    <testCase name="ConsultRequestComponent should clean filters" duration="4069"/>
+    <testCase name="ConsultRequestComponent should observe DMR" duration="4337"/>
+    <testCase name="ConsultRequestComponent should observe Request Type" duration="4290"/>
+    <testCase name="ConsultRequestComponent should formatDate" duration="4933"/>
+    <testCase name="ConsultRequestComponent should search request" duration="5508"/>
+    <testCase name="ConsultRequestComponent should stopKeyDown" duration="5608"/>
+    <testCase name="ConsultRequestComponent should sort" duration="6457"/>
+    <testCase name="ConsultRequestComponent it should execute a option selected" duration="6460"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\letters\letters.component.spec.ts">
+    <testCase name="LettersComponent should create" duration="1129"/>
+    <testCase name="LettersComponent should check for required error" duration="430"/>
+    <testCase name="LettersComponent should check if is required" duration="518"/>
+    <testCase name="LettersComponent should check if isnt required" duration="522"/>
+    <testCase name="LettersComponent should check if not exist control required" duration="625"/>
+    <testCase name="LettersComponent should execute letter type changes on searchForm" duration="640"/>
+    <testCase name="LettersComponent should execute letter type changes on searchForm" duration="758"/>
+    <testCase name="LettersComponent should execute letter type changes on letterForm" duration="1047"/>
+    <testCase name="LettersComponent should execute letter type changes on letterForm" duration="935"/>
+    <testCase name="LettersComponent should search letters" duration="1037"/>
+    <testCase name="LettersComponent should change component status" duration="1061"/>
+    <testCase name="LettersComponent should clean component search" duration="1245"/>
+    <testCase name="LettersComponent should open form letters" duration="1306"/>
+    <testCase name="LettersComponent should delete a letter" duration="1363"/>
+    <testCase name="LettersComponent should fill letterForm" duration="1250"/>
+    <testCase name="LettersComponent should open modalConfirmation" duration="1256"/>
+    <testCase name="LettersComponent should modify letterForm" duration="1311"/>
+    <testCase name="LettersComponent should save letterForm" duration="1739"/>
+    <testCase name="LettersComponent should add tag Header" duration="1389"/>
+    <testCase name="LettersComponent should stopKeyDown" duration="1725"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\request-data-tab\request-data-tab.component.spec.ts">
+    <testCase name="RequestDataTabComponent should create" duration="2379"/>
+    <testCase name="RequestDataTabComponent should initGeoRed" duration="1917"/>
+    <testCase name="RequestDataTabComponent should showVisualInternalRequestData" duration="2333"/>
+    <testCase name="RequestDataTabComponent should modifyRequests" duration="3179"/>
+    <testCase name="RequestDataTabComponent should destroy component alive" duration="3852"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\consult-request\search-request\search-request.component.spec.ts">
+    <testCase name="SearchRequestComponent should create" duration="1004"/>
+    <testCase name="SearchRequestComponent form should be valid" duration="461"/>
+    <testCase name="SearchRequestComponent should show error when DNI dropdown is empty" duration="479"/>
+    <testCase name="SearchRequestComponent should not show error when DNI dropdown is valid" duration="664"/>
+    <testCase name="SearchRequestComponent should show error when DNI number is empty" duration="446"/>
+    <testCase name="SearchRequestComponent should not show error when DNI number is valid" duration="525"/>
+    <testCase name="SearchRequestComponent should show error when REF number is empty" duration="620"/>
+    <testCase name="SearchRequestComponent should show error when refNum has been written incorrectly" duration="865"/>
+    <testCase name="SearchRequestComponent should not show error when REF number is valid" duration="793"/>
+    <testCase name="SearchRequestComponent should show error when code number is empty" duration="727"/>
+    <testCase name="SearchRequestComponent should not show error when code number is valid" duration="948"/>
+    <testCase name="SearchRequestComponent should check errors" duration="955"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\consult-request\view-request\view-request.component.spec.ts">
+    <testCase name="ViewRequestComponent should create" duration="3008"/>
+    <testCase name="ViewRequestComponent should get params " duration="2501"/>
+    <testCase name="ViewRequestComponent should get consults " duration="3668"/>
+    <testCase name="ViewRequestComponent should downloadFile" duration="4236"/>
+    <testCase name="ViewRequestComponent should close modal" duration="4901"/>
+    <testCase name="ViewRequestComponent should get requests " duration="5922"/>
+    <testCase name="ViewRequestComponent should not create consult" duration="5602"/>
+    <testCase name="ViewRequestComponent should create consult" duration="6047"/>
+    <testCase name="ViewRequestComponent search requests" duration="7082"/>
+    <testCase name="ViewRequestComponent should go to request data " duration="7593"/>
+    <testCase name="ViewRequestComponent should go to request data " duration="8504"/>
+    <testCase name="ViewRequestComponent should go to communication " duration="8079"/>
+    <testCase name="ViewRequestComponent should call status" duration="9470"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\register-request\register-request.component.spec.ts">
+    <testCase name="RegisterRequestComponent should create" duration="1357"/>
+    <testCase name="RegisterRequestComponent should save identification data" duration="1218"/>
+    <testCase name="RegisterRequestComponent should save request data" duration="1373"/>
+    <testCase name="RegisterRequestComponent should go to geored " duration="1820"/>
+    <testCase name="RegisterRequestComponent should create request" duration="2044"/>
+    <testCase name="RegisterRequestComponent should change step" duration="2302"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\consult\consult.component.spec.ts">
+    <testCase name="ConsultComponent should create" duration="1494"/>
+    <testCase name="ConsultComponent should filter by type request" duration="1243"/>
+    <testCase name="ConsultComponent should clean all filters" duration="1745"/>
+    <testCase name="ConsultComponent should filter by fields" duration="1770"/>
+    <testCase name="ConsultComponent should update the table data formated" duration="1929"/>
+    <testCase name="ConsultComponent should sort the table" duration="2388"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\register\register.component.spec.ts">
+    <testCase name="RegisterComponent should create" duration="1760"/>
+    <testCase name="RegisterComponent should create register" duration="1341"/>
+    <testCase name="RegisterComponent should get all municipalities when select province" duration="1169"/>
+    <testCase name="RegisterComponent should updateFromRequestType()" duration="1410"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\shared-components\draft-letter\draft-letter.component.spec.ts">
+    <testCase name="DraftLetterComponent should create" duration="2111"/>
+    <testCase name="DraftLetterComponent should fillLetterTemplate()" duration="1400"/>
+    <testCase name="DraftLetterComponent should makeTagSelectorOptions()" duration="1728"/>
+    <testCase name="DraftLetterComponent should add Tags" duration="2186"/>
+    <testCase name="DraftLetterComponent should save files &amp; emit to parent" duration="2292"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\view-expedient\expedient-documentation\expedient-documentation.component.spec.ts">
+    <testCase name="ExpedientDocumentationComponent should create" duration="1348"/>
+    <testCase name="ExpedientDocumentationComponent should post file uploaded" duration="1032"/>
+    <testCase name="ExpedientDocumentationComponent should download file" duration="1099"/>
+    <testCase name="ExpedientDocumentationComponent shuld close subscriptinos on destroy" duration="1515"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\manage-requests\manage-requests.component.spec.ts">
+    <testCase name="ManageRequestsComponent should create" duration="1124"/>
+    <testCase name="ManageRequestsComponent should sort response when descended" duration="271"/>
+    <testCase name="ManageRequestsComponent should sort response when ascendend" duration="230"/>
+    <testCase name="ManageRequestsComponent should show error when minor than 1" duration="242"/>
+    <testCase name="ManageRequestsComponent should show error when major than 365" duration="259"/>
+    <testCase name="ManageRequestsComponent should clean 0 before number" duration="246"/>
+    <testCase name="ManageRequestsComponent should not show error when number between 1 and 365" duration="277"/>
+    <testCase name="ManageRequestsComponent should sort response when equals" duration="489"/>
+    <testCase name="ManageRequestsComponent should save Settings" duration="325"/>
+    <testCase name="ManageRequestsComponent should get text" duration="369"/>
+    <testCase name="ManageRequestsComponent shold cancel changes" duration="410"/>
+    <testCase name="ManageRequestsComponent should destroy subscriptions" duration="408"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\communications\communications.component.spec.ts">
+    <testCase name="CommunicationsComponent should create" duration="2275"/>
+    <testCase name="CommunicationsComponent should dowloadfile" duration="2180"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\view-expedient\internal-comments\internal-comments.component.spec.ts">
+    <testCase name="InternalCommentsComponent should create" duration="1038"/>
+    <testCase name="InternalCommentsComponent should save comment" duration="734"/>
+    <testCase name="InternalCommentsComponent should destroy subcription when destroy" duration="777"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\view-expedient\view-expedient.component.spec.ts">
+    <testCase name="ViewExpedientComponent should create" duration="2990"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\quiz\quiz.component.spec.ts">
+    <testCase name="QuizComponent should create" duration="1114"/>
+    <testCase name="QuizComponent should set an answer" duration="727"/>
+    <testCase name="QuizComponent should send quiz" duration="1028"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\personal-data-tab\personal-data-tab.component.spec.ts">
+    <testCase name="PersonalDataTabComponent should create" duration="1273"/>
+    <testCase name="PersonalDataTabComponent should showIdentificationData" duration="890"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\faq\faq.component.spec.ts">
+    <testCase name="FaqComponent should fill with faqs" duration="637"/>
+    <testCase name="FaqComponent should open and fill update form when click open" duration="188"/>
+    <testCase name="FaqComponent should change create to update" duration="175"/>
+    <testCase name="FaqComponent should cclean form search" duration="183"/>
+    <testCase name="FaqComponent should save a question" duration="208"/>
+    <testCase name="FaqComponent should update a question" duration="176"/>
+    <testCase name="FaqComponent should clean new faq form" duration="207"/>
+    <testCase name="FaqComponent should change update to create" duration="229"/>
+    <testCase name="FaqComponent should show min length error when less than 3 characters" duration="228"/>
+    <testCase name="FaqComponent should show only letters error" duration="279"/>
+    <testCase name="FaqComponent should show min length error when less than 3 characters" duration="220"/>
+    <testCase name="FaqComponent should show only letters error" duration="311"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\home\home.component.spec.ts">
+    <testCase name="HomeComponent should create" duration="1252"/>
+    <testCase name="HomeComponent should list pending request" duration="449"/>
+    <testCase name="HomeComponent should navigate to pending request when click open" duration="573"/>
+    <testCase name="HomeComponent should change navigation" duration="503"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\users\shared-form\shared-form.component.spec.ts">
+    <testCase name="SharedFormComponent should create" duration="821"/>
+    <testCase name="SharedFormComponent should register/modify an user" duration="391"/>
+    <testCase name="SharedFormComponent should update additional fields" duration="461"/>
+    <testCase name="SharedFormComponent should execute ngOnDestroy" duration="511"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\users\register\register.component.spec.ts">
+    <testCase name="RegisterComponent should create" duration="1157"/>
+    <testCase name="RegisterComponent should filter all users &amp; clean fields" duration="577"/>
+    <testCase name="RegisterComponent should open the form &amp; get all user info" duration="658"/>
+    <testCase name="RegisterComponent should update if user enabled" duration="916"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\assign-random-user\assign-random-user.component.spec.ts">
+    <testCase name="AssignRandomUserComponent should create" duration="1092"/>
+    <testCase name="AssignRandomUserComponent should assignTech" duration="603"/>
+    <testCase name="AssignRandomUserComponent should cancel" duration="633"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\tags\tags.component.spec.ts">
+    <testCase name="TagsComponent should create" duration="1152"/>
+    <testCase name="TagsComponent should clean search form" duration="258"/>
+    <testCase name="TagsComponent should search Tags " duration="260"/>
+    <testCase name="TagsComponent should open or close tag form" duration="282"/>
+    <testCase name="TagsComponent should close tag form" duration="269"/>
+    <testCase name="TagsComponent should modify tag" duration="340"/>
+    <testCase name="TagsComponent should open modify form" duration="408"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\internal-docu\internal-docu.component.spec.ts">
+    <testCase name="InternalDocuComponent should create" duration="1729"/>
+    <testCase name="InternalDocuComponent should save &amp; download file" duration="607"/>
+    <testCase name="InternalDocuComponent should change filename" duration="778"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\tech-assingment\tech-assingment.component.spec.ts">
+    <testCase name="TechAssingmentComponent should create" duration="988"/>
+    <testCase name="TechAssingmentComponent should assignTech" duration="460"/>
+    <testCase name="TechAssingmentComponent should cancel" duration="480"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\user-assignment\user-assignment.component.spec.ts">
+    <testCase name="UserAssignmentComponent should create" duration="1001"/>
+    <testCase name="UserAssignmentComponent should assignTech" duration="420"/>
+    <testCase name="UserAssignmentComponent should cancel" duration="515"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\answer-external\answer-external.component.spec.ts">
+    <testCase name="AnswerExternalComponent should create" duration="940"/>
+    <testCase name="AnswerExternalComponent should answer questions" duration="466"/>
+    <testCase name="AnswerExternalComponent should save files" duration="562"/>
+    <testCase name="AnswerExternalComponent should destroy dynamic component" duration="550"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\send-request-additional\send-request-additional.component.spec.ts">
+    <testCase name="SendRequestAdditionalComponent should create" duration="852"/>
+    <testCase name="SendRequestAdditionalComponent should assignTech" duration="430"/>
+    <testCase name="SendRequestAdditionalComponent should cancel" duration="632"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\shared-components\dropdown-selector\dropdown-selector.component.spec.ts">
+    <testCase name="DropdownSelectorComponent should create" duration="839"/>
+    <testCase name="DropdownSelectorComponent should selection role and retrive users" duration="339"/>
+    <testCase name="DropdownSelectorComponent should removeSelector" duration="527"/>
+    <testCase name="DropdownSelectorComponent should cancelAction" duration="505"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\consult-request\consult-request.component.spec.ts">
+    <testCase name="ConsultRequestComponent should create" duration="1468"/>
+    <testCase name="ConsultRequestComponent should search data" duration="528"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\modify-request\modify-request.component.spec.ts">
+    <testCase name="ModifyRequestComponent should create" duration="1289"/>
+    <testCase name="ModifyRequestComponent should search data" duration="733"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\consult-another-user\consult-another-user.component.spec.ts">
+    <testCase name="ConsultAnotherUserComponent should create" duration="1194"/>
+    <testCase name="ConsultAnotherUserComponent should send consult" duration="693"/>
+    <testCase name="ConsultAnotherUserComponent should execute all observers" duration="634"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\internal-comments\internal-comments.component.spec.ts">
+    <testCase name="InternalCommentsComponent should create" duration="1449"/>
+    <testCase name="InternalCommentsComponent should save comment" duration="560"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\actions\options\actions-options.service.spec.ts">
+    <testCase name="CloseRequestService should be created" duration="140"/>
+    <testCase name="CloseRequestService should close request" duration="56"/>
+    <testCase name="CloseRequestService should put geored confirmation" duration="22"/>
+    <testCase name="CloseRequestService should putTipologyConfirmation()" duration="60"/>
+    <testCase name="CloseRequestService should getExternalConsultQuestions()" duration="15"/>
+    <testCase name="CloseRequestService should putExternalConsultQuestions()" duration="10"/>
+    <testCase name="CloseRequestService should putAffectionsConfirmation(true)" duration="23"/>
+    <testCase name="CloseRequestService should putExpedientAssign()" duration="6"/>
+    <testCase name="CloseRequestService should putSendingCommunication()" duration="10"/>
+    <testCase name="CloseRequestService should getDraftLetter()" duration="9"/>
+    <testCase name="CloseRequestService should putCheckEraseLetter()" duration="43"/>
+    <testCase name="CloseRequestService should postAssignUsers()" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\register-request\components\upload-files\upload-files.component.spec.ts">
+    <testCase name="UploadFilesComponent should create" duration="785"/>
+    <testCase name="UploadFilesComponent should change add file name when valid data" duration="226"/>
+    <testCase name="UploadFilesComponent should show error  when invalid data" duration="193"/>
+    <testCase name="UploadFilesComponent should upload file if no errors" duration="307"/>
+    <testCase name="UploadFilesComponent should add new option file when first file uploaded" duration="423"/>
+    <testCase name="UploadFilesComponent should trow error when requestId is empty" duration="226"/>
+    <testCase name="UploadFilesComponent should get all uploaded files" duration="199"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\sending-communication\sending-communication.component.spec.ts">
+    <testCase name="SendingCommunicationComponent should create" duration="1243"/>
+    <testCase name="SendingCommunicationComponent should confirm sending communication" duration="448"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\answer-internal\answer-internal.component.spec.ts">
+    <testCase name="AnswerInternalComponent should create" duration="1032"/>
+    <testCase name="AnswerInternalComponent should answer question" duration="327"/>
+    <testCase name="AnswerInternalComponent should observe answer" duration="287"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\view-request.component.spec.ts">
+    <testCase name="ViewRequestComponent should create" duration="1751"/>
+    <testCase name="ViewRequestComponent should create" duration="126"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\other-department-assignment\other-department-assignment.component.spec.ts">
+    <testCase name="OtherDepartmentAssignmentComponent should create" duration="1220"/>
+    <testCase name="OtherDepartmentAssignmentComponent should send review" duration="703"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\my-tasks\my-tasks.component.spec.ts">
+    <testCase name="MyTasksTableComponent should create" duration="3338"/>
+    <testCase name="MyTasksTableComponent should search my tasks" duration="3217"/>
+    <testCase name="MyTasksTableComponent should get all my tasks" duration="4748"/>
+    <testCase name="MyTasksTableComponent should clean filter" duration="5801"/>
+    <testCase name="MyTasksTableComponent should sort all my tasks in desc order" duration="7497"/>
+    <testCase name="MyTasksTableComponent should sort all my tasks in asc order" duration="7833"/>
+    <testCase name="MyTasksTableComponent should raise requestDate" duration="9691"/>
+    <testCase name="MyTasksTableComponent should descend requestDate" duration="11408"/>
+    <testCase name="MyTasksTableComponent should raise responseDeadline" duration="11722"/>
+    <testCase name="MyTasksTableComponent should descend responseDeadline" duration="13557"/>
+    <testCase name="MyTasksTableComponent should click to show expedient" duration="17027"/>
+    <testCase name="MyTasksTableComponent should click to show expedient" duration="18531"/>
+    <testCase name="MyTasksTableComponent should check onSubmit &amp; keyDown" duration="20717"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\users\users.component.spec.ts">
+    <testCase name="UsersComponent should create" duration="1309"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\roles\management\management.component.spec.ts">
+    <testCase name="ManagementComponent should create" duration="820"/>
+    <testCase name="ManagementComponent should find rol notifications" duration="217"/>
+    <testCase name="ManagementComponent should save modified data" duration="239"/>
+    <testCase name="ManagementComponent should download rol permissions" duration="340"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\shared\pipes\menu-authorization.pipe.spec.ts">
+    <testCase name="MenuAuthorizationPipe create an instance" duration="608"/>
+    <testCase name="MenuAuthorizationPipe should remove forbidden menu elements" duration="135"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\internal.component.spec.ts">
+    <testCase name="InternalComponent should create" duration="568"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\tipology-confirmation\tipology-confirmation.component.spec.ts">
+    <testCase name="TipologyConfirmationComponent should create" duration="954"/>
+    <testCase name="TipologyConfirmationComponent should set tipology" duration="270"/>
+    <testCase name="TipologyConfirmationComponent should set user" duration="309"/>
+    <testCase name="TipologyConfirmationComponent should cancel" duration="455"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\close-request\close-request.component.spec.ts">
+    <testCase name="CloseRequestComponent should create" duration="534"/>
+    <testCase name="CloseRequestComponent should close confirmation" duration="170"/>
+    <testCase name="CloseRequestComponent should catch error in close confirmation" duration="122"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\roles\notifications\notifications.component.spec.ts">
+    <testCase name="NotificationsComponent should create" duration="705"/>
+    <testCase name="NotificationsComponent should observe dropdowns and switchs" duration="393"/>
+    <testCase name="NotificationsComponent should find rol notifications" duration="302"/>
+    <testCase name="NotificationsComponent should save modified data" duration="230"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\external.component.spec.ts">
+    <testCase name="ExternalComponent should create" duration="543"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\history\history.component.spec.ts">
+    <testCase name="HistoryComponent should create" duration="1835"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\view-expedient\expedient-data\expedient-data.component.spec.ts">
+    <testCase name="ExpedientDataComponent should create" duration="386"/>
+    <testCase name="ExpedientDataComponent should set the data &amp; callbacks" duration="111"/>
+    <testCase name="ExpedientDataComponent should modify a record" duration="65"/>
+    <testCase name="ExpedientDataComponent should check the form errors" duration="70"/>
+    <testCase name="ExpedientDataComponent should updateFromRequestType()" duration="50"/>
+    <testCase name="ExpedientDataComponent should enableFields" duration="46"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\roles\roles.component.spec.ts">
+    <testCase name="RolesComponent should create" duration="1082"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\actions.component.spec.ts">
+    <testCase name="ActionsComponent should create" duration="431"/>
+    <testCase name="ActionsComponent should load and clear components" duration="1196"/>
+    <testCase name="ActionsComponent should change dropdown selection" duration="687"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\expedient-assign\expedient-assign.component.spec.ts">
+    <testCase name="ExpedientAssignComponent should create" duration="464"/>
+    <testCase name="ExpedientAssignComponent should assign expedient" duration="104"/>
+    <testCase name="ExpedientAssignComponent should confirm exp number" duration="94"/>
+    <testCase name="ExpedientAssignComponent should assign exp &amp; control errors" duration="83"/>
+    <testCase name="ExpedientAssignComponent should cancel action" duration="73"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\shared\components\non-results\non-results.component.spec.ts">
+    <testCase name="NonResultsComponent should create" duration="227"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\shared\components\download-modal\download-modal.component.spec.ts">
+    <testCase name="DownloadModalComponent should create" duration="660"/>
+    <testCase name="DownloadModalComponent should downloadSelectedFile" duration="275"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\logout\logout.component.spec.ts">
+    <testCase name="LogoutComponent should create" duration="1614"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\view-expedient\related-requests\related-requests.component.spec.ts">
+    <testCase name="RelatedRequestsComponent should create" duration="627"/>
+    <testCase name="RelatedRequestsComponent should map the requests" duration="78"/>
+    <testCase name="RelatedRequestsComponent should navigate to request result" duration="349"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\expedient-validation\expedient-validation.component.spec.ts">
+    <testCase name="ExpedientValidationComponent should create" duration="581"/>
+    <testCase name="ExpedientValidationComponent should change radio" duration="227"/>
+    <testCase name="ExpedientValidationComponent should confirm &amp; cancel validation" duration="240"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="187"/>
+    <testCase name="AppComponent should have as title &apos;infored&apos;" duration="46"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\home\home.component.spec.ts">
+    <testCase name="HomeComponent should create" duration="742"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\requests.component.spec.ts">
+    <testCase name="RequestsComponent should create" duration="211"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\review-letter\review-letter.component.spec.ts">
+    <testCase name="ReviewLetterComponent should create" duration="210"/>
+    <testCase name="ReviewLetterComponent should sendReviewDraftLetterOne()" duration="28"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\interceptors\token.interceptor.spec.ts">
+    <testCase name="TokenInterceptor should be created" duration="89"/>
+    <testCase name="TokenInterceptor should add token if there is one" duration="44"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\expedients\expedients.component.spec.ts">
+    <testCase name="ExpedientsComponent should create" duration="167"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\shared\directives\add-component.directive.spec.ts">
+    <testCase name="AddComponentDirective should create an instance" duration="259"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-faq\internal-faq.service.spec.ts">
+    <testCase name="InternalFaqService should be created" duration="64"/>
+    <testCase name="InternalFaqService should get all the private subscriptions" duration="29"/>
+    <testCase name="InternalFaqService should delete faq" duration="13"/>
+    <testCase name="InternalFaqService should post a faq" duration="8"/>
+    <testCase name="InternalFaqService should put a faq" duration="14"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\contact\contact.component.spec.ts">
+    <testCase name="ContactComponent should create" duration="135"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\letter-auto-validation\letter-auto-validation.component.spec.ts">
+    <testCase name="LetterAutoValidationComponent should create" duration="142"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\check-modify-letter\check-modify-letter.component.spec.ts">
+    <testCase name="CheckModifyLetterComponent should create" duration="125"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\letter\letter.service.spec.ts">
+    <testCase name="LetterService should be created" duration="61"/>
+    <testCase name="LetterService should getLetterList()" duration="25"/>
+    <testCase name="LetterService should addLetter()" duration="11"/>
+    <testCase name="LetterService should editLetter()" duration="12"/>
+    <testCase name="LetterService should editLetter()" duration="17"/>
+    <testCase name="LetterService should addDraftLetter()" duration="10"/>
+    <testCase name="LetterService should editDraftLetter()" duration="14"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\letter-visa-response\letter-visa-response.component.spec.ts">
+    <testCase name="LetterVisaResponseComponent should create" duration="155"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\affections-confirmation\affections-confirmation.component.spec.ts">
+    <testCase name="AffectionsConfirmationComponent should create" duration="138"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\auth\auth.service.spec.ts">
+    <testCase name="AuthService should be created" duration="226"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\interceptors\loading.interceptor.spec.ts">
+    <testCase name="LoadingInterceptor should be created" duration="107"/>
+    <testCase name="LoadingInterceptor sould change the loading status" duration="105"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\guards\authorization.guard.spec.ts">
+    <testCase name="AuthorizationGuard should be created" duration="191"/>
+    <testCase name="AuthorizationGuard should access if no required permissions" duration="17"/>
+    <testCase name="AuthorizationGuard should access if no required permissions" duration="16"/>
+    <testCase name="AuthorizationGuard should load if has permissions" duration="12"/>
+    <testCase name="AuthorizationGuard should access if has permissions" duration="18"/>
+    <testCase name="AuthorizationGuard should load if has permissions" duration="38"/>
+    <testCase name="AuthorizationGuard should not access if has permissions" duration="92"/>
+    <testCase name="AuthorizationGuard should not load if has permissions" duration="57"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\interceptors\errors.interceptor.spec.ts">
+    <testCase name="ErrorsInterceptor should be created" duration="83"/>
+    <testCase name="ErrorsInterceptor should redirect to cognito when unauthorized" duration="395"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\utils\utils.service.spec.ts">
+    <testCase name="HelperService should be created" duration="54"/>
+    <testCase name="HelperService should get subtypes from dropdown" duration="13"/>
+    <testCase name="HelperService should remove empty properties" duration="8"/>
+    <testCase name="HelperService should extract object IDropdown" duration="9"/>
+    <testCase name="HelperService should sort by a field" duration="8"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\modal\modal.service.spec.ts">
+    <testCase name="ErrorService should be created" duration="50"/>
+    <testCase name="ErrorService should show modal" duration="22"/>
+    <testCase name="ErrorService should show modal" duration="8"/>
+    <testCase name="ErrorService should change message error" duration="8"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\quick-sight\quick-sight.service.spec.ts">
+    <testCase name="QuickSightService should be created" duration="47"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\generate-letter\generate-letter.component.spec.ts">
+    <testCase name="GenerateLetterComponent should create" duration="186"/>
+    <testCase name="GenerateLetterComponent should create a draft letter" duration="26"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\privacy-policy\privacy-policy.component.spec.ts">
+    <testCase name="PrivacyPolicyComponent should create" duration="326"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\shared-components\letter-response\letter-response.component.spec.ts">
+    <testCase name="LetterResponseComponent should create" duration="214"/>
+    <testCase name="LetterResponseComponent should check component" duration="24"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\shared-components\confirmation\confirmation.component.spec.ts">
+    <testCase name="ConfirmationComponent should create" duration="300"/>
+    <testCase name="ConfirmationComponent should confirm in geored confirmation component" duration="31"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\cookies-policy\cookies-policy.component.spec.ts">
+    <testCase name="CookiesPolicyComponent should create" duration="172"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\guards\is-auth.guard.spec.ts">
+    <testCase name="IsAuthGuard should be created" duration="77"/>
+    <testCase name="IsAuthGuard should call loadToken()" duration="141"/>
+    <testCase name="IsAuthGuard should allow access if isAuth" duration="61"/>
+    <testCase name="IsAuthGuard should deny access if is not auth" duration="34"/>
+    <testCase name="IsAuthGuard should load if is auth" duration="102"/>
+    <testCase name="IsAuthGuard should not load if is not auth" duration="68"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\faq\faq.component.spec.ts">
+    <testCase name="FaqComponent should get all faqs" duration="316"/>
+    <testCase name="FaqComponent sould call status" duration="30"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\roles\roles.service.spec.ts">
+    <testCase name="RolesService should be created" duration="98"/>
+    <testCase name="RolesService should get all roles" duration="23"/>
+    <testCase name="RolesService should get users roles" duration="14"/>
+    <testCase name="RolesService should get all notifications" duration="18"/>
+    <testCase name="RolesService should get file url" duration="8"/>
+    <testCase name="RolesService should get permissions" duration="8"/>
+    <testCase name="RolesService should patch notifications" duration="16"/>
+    <testCase name="RolesService should patch permissions" duration="6"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\interceptors\cache.interceptor.spec.ts">
+    <testCase name="CacheInterceptor should be created" duration="40"/>
+    <testCase name="CacheInterceptor should store request" duration="22"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\actions\actions.service.spec.ts">
+    <testCase name="ActionsService API should be created" duration="53"/>
+    <testCase name="ActionsService API should getRequestInternalActions()" duration="23"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\tags\tags.service.spec.ts">
+    <testCase name="TagsService should be created" duration="58"/>
+    <testCase name="TagsService should get all system tags" duration="23"/>
+    <testCase name="TagsService should get all user tags filtered by name or title" duration="14"/>
+    <testCase name="TagsService should add a new tag" duration="13"/>
+    <testCase name="TagsService should modify an user tag" duration="14"/>
+    <testCase name="TagsService should delete an user tag" duration="9"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\record\record.service.spec.ts">
+    <testCase name="RecordService should be created" duration="39"/>
+    <testCase name="RecordService should create new record" duration="20"/>
+    <testCase name="RecordService should get all filtered records" duration="11"/>
+    <testCase name="RecordService should get all filtered records with params" duration="9"/>
+    <testCase name="RecordService should get record by id" duration="9"/>
+    <testCase name="RecordService should update record" duration="7"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\services\actions-state.service.spec.ts">
+    <testCase name="ActionsStateService should be created" duration="31"/>
+    <testCase name="ActionsStateService should clean components" duration="10"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\faq\faq.service.spec.ts">
+    <testCase name="FaqService should be created" duration="38"/>
+    <testCase name="FaqService should get all the subscriptions" duration="42"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\letter-type\letterType.service.spec.ts">
+    <testCase name="LetterTypeService should be created" duration="63"/>
+    <testCase name="LetterTypeService should getLetterType()" duration="20"/>
+    <testCase name="LetterTypeService should getLetterTypeMapped()" duration="64"/>
+    <testCase name="LetterTypeService should putLetterType()" duration="8"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\file-manager\file-manager.service.spec.ts">
+    <testCase name="FileManagerService should be created" duration="47"/>
+    <testCase name="FileManagerService should get download temp url" duration="37"/>
+    <testCase name="FileManagerService should get upload temp url" duration="13"/>
+    <testCase name="FileManagerService should upload file" duration="9"/>
+    <testCase name="FileManagerService should update status" duration="49"/>
+    <testCase name="FileManagerService should get uploaded files status" duration="10"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\loading\loading.service.spec.ts">
+    <testCase name="LoadingService should be created" duration="41"/>
+    <testCase name="LoadingService sould return true when showLoading is called" duration="13"/>
+    <testCase name="LoadingService should return false when hideLoading is called" duration="9"/>
+    <testCase name="LoadingService should add url to ignore url" duration="8"/>
+    <testCase name="LoadingService shoudl remove url" duration="8"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\generate-review-letter\generate-review-letter.component.spec.ts">
+    <testCase name="GenerateReviewLetterComponent should create" duration="169"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\manage-request\manage-request.service.spec.ts">
+    <testCase name="AdministrationManagementRequestsService should be created" duration="59"/>
+    <testCase name="AdministrationManagementRequestsService should getAdministrationManagementRequests()" duration="19"/>
+    <testCase name="AdministrationManagementRequestsService should updateAdministrationManagementRequests()" duration="8"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\my-tasks\my-tasks.service.spec.ts">
+    <testCase name="MyTasksTableService should be created" duration="60"/>
+    <testCase name="MyTasksTableService should get mytask table" duration="27"/>
+    <testCase name="MyTasksTableService should filter tasks" duration="16"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\requests.component.spec.ts">
+    <testCase name="RequestsComponent should create" duration="114"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\control-panel\control-panel.component.spec.ts">
+    <testCase name="ControlPanelComponent should create" duration="176"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\requests\view-request\actions\options\geored-confirmation\geored-confirmation.component.spec.ts">
+    <testCase name="GeoredConfirmationComponent should create" duration="120"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\params\params.service.spec.ts">
+    <testCase name="ParamsService should be created" duration="42"/>
+    <testCase name="ParamsService should get params" duration="18"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\geored\geored.service.spec.ts">
+    <testCase name="GeoredService should be created" duration="87"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\user\user.service.spec.ts">
+    <testCase name="UserService API should be created" duration="48"/>
+    <testCase name="UserService API should getUser()" duration="19"/>
+    <testCase name="UserService API should getUserUsername()" duration="8"/>
+    <testCase name="UserService API should putUserUsername()" duration="10"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-enquiry\internal-enquiry.service.spec.ts">
+    <testCase name="InternalEnquiryService should be created" duration="64"/>
+    <testCase name="InternalEnquiryService should getInternalConsult()" duration="18"/>
+    <testCase name="InternalEnquiryService should putInternalConsult()" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\commons\forbidden\forbidden.component.spec.ts">
+    <testCase name="ForbiddenComponent should create" duration="109"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\province\province.service.spec.ts">
+    <testCase name="ProvinceService should be created" duration="39"/>
+    <testCase name="ProvinceService should get provinces" duration="18"/>
+    <testCase name="ProvinceService should get municipalties" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\web-map\web-map.component.spec.ts">
+    <testCase name="WebMapComponent should create" duration="228"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\authorization\authorization.service.spec.ts">
+    <testCase name="AuthorizationService should be created" duration="116"/>
+    <testCase name="AuthorizationService should set authorization" duration="13"/>
+    <testCase name="AuthorizationService should return true if use has permission" duration="21"/>
+    <testCase name="AuthorizationService should return false if use dont have permission" duration="15"/>
+    <testCase name="AuthorizationService should return true if use has role" duration="16"/>
+    <testCase name="AuthorizationService should return false if use dont have role" duration="11"/>
+    <testCase name="AuthorizationService should clean roles" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\survey\survey.service.spec.ts">
+    <testCase name="SurveyService API should be created" duration="85"/>
+    <testCase name="SurveyService API should postSurvey()" duration="16"/>
+    <testCase name="SurveyService API should check if has already been completed" duration="7"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\commons\not-found\not-found.component.spec.ts">
+    <testCase name="NotFoundComponent should create" duration="129"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\history\history.service.spec.ts">
+    <testCase name="HistoryService API should be created" duration="94"/>
+    <testCase name="HistoryService API should getRequestInternalHistory()" duration="35"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\internal\administration\administration.component.spec.ts">
+    <testCase name="AdministrationComponent should create" duration="195"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\comments\comments.service.spec.ts">
+    <testCase name="CommentsService API should be created" duration="69"/>
+    <testCase name="CommentsService API should getRequestInternalComments()" duration="31"/>
+    <testCase name="CommentsService API should postRequestInternalComments()" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\enquiry\enquiry.service.spec.ts">
+    <testCase name="EnquiryService should be created" duration="103"/>
+    <testCase name="EnquiryService should getConsults()" duration="34"/>
+    <testCase name="EnquiryService should createConsult()" duration="19"/>
+    <testCase name="EnquiryService should modifyConsult()" duration="11"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\request\request.service.spec.ts">
+    <testCase name="RequestService should be created" duration="74"/>
+    <testCase name="RequestService should create new request" duration="42"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\internal-request.service.spec.ts">
+    <testCase name="InternalRequestService should be created" duration="81"/>
+    <testCase name="InternalRequestService sould get pending internal-requests" duration="29"/>
+    <testCase name="InternalRequestService should get RequestWithFilters" duration="8"/>
+    <testCase name="InternalRequestService should create a request" duration="11"/>
+    <testCase name="InternalRequestService should finish a request" duration="37"/>
+    <testCase name="InternalRequestService should get related request" duration="9"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\internal-request\communication\internal-communications.service.spec.ts">
+    <testCase name="Internal Communication Service should be created" duration="74"/>
+    <testCase name="Internal Communication Service should getRequestInternalCommunications()" duration="31"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\states\internal-request.state.service.spec.ts">
+    <testCase name="InternalRequestStateService should be created" duration="58"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\api\geored\geored-auth.service.spec.ts">
+    <testCase name="GeoredAuthService should be created" duration="70"/>
+    <testCase name="GeoredAuthService should getGeoredToken()" duration="26"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\core\services\common\cookie\cookie.service.spec.ts">
+    <testCase name="CookieService should be created" duration="105"/>
+    <testCase name="CookieService should set &amp; delete" duration="21"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\register-request\components\identification-data\identification-data.component.spec.ts">
+    <testCase name="IdentificationDataComponent should create" duration="1727"/>
+    <testCase name="IdentificationDataComponent should checkIfDisableInputs" duration="842"/>
+    <testCase name="IdentificationDataComponent should fill with previous data" duration="973"/>
+    <testCase name="IdentificationDataComponent should fill Dropdowns" duration="1224"/>
+    <testCase name="IdentificationDataComponent form should be valid" duration="1268"/>
+    <testCase name="IdentificationDataComponent form should be external" duration="1650"/>
+    <testCase name="IdentificationDataComponent should remove required Validator" duration="1773"/>
+    <testCase name="IdentificationDataComponent should show error when DNI dropdown is empty" duration="2007"/>
+    <testCase name="IdentificationDataComponent should not show error when DNI dropdown is valid" duration="2212"/>
+    <testCase name="IdentificationDataComponent should show error when DNI number is empty" duration="2007"/>
+    <testCase name="IdentificationDataComponent should show error when dniNum has been written incorrectly" duration="2300"/>
+    <testCase name="IdentificationDataComponent should not show error when DNI number is valid" duration="2670"/>
+    <testCase name="IdentificationDataComponent should show error when email is empty" duration="2713"/>
+    <testCase name="IdentificationDataComponent should show error when email has been written incorrectly" duration="2975"/>
+    <testCase name="IdentificationDataComponent should show error when email and repeatEmail are not the same" duration="2749"/>
+    <testCase name="IdentificationDataComponent should not show error when email is valid" duration="2868"/>
+    <testCase name="IdentificationDataComponent should show error when repeatEmail is empty" duration="3248"/>
+    <testCase name="IdentificationDataComponent should show error when repeatEmail has been written incorrectly" duration="3283"/>
+    <testCase name="IdentificationDataComponent should show error when email and repeatEmail are not the same" duration="3669"/>
+    <testCase name="IdentificationDataComponent should not show error when repeatEmail is valid" duration="3992"/>
+    <testCase name="IdentificationDataComponent should show error when socialReasonSelect is empty" duration="3863"/>
+    <testCase name="IdentificationDataComponent should not show error when socialReasonSelect is valid" duration="4304"/>
+    <testCase name="IdentificationDataComponent should show error when socialReason is empty" duration="3944"/>
+    <testCase name="IdentificationDataComponent should show error when socialReason has more than 100 characters" duration="4152"/>
+    <testCase name="IdentificationDataComponent should not show error when socialReason is valid" duration="4344"/>
+    <testCase name="IdentificationDataComponent should show error when province is empty" duration="4601"/>
+    <testCase name="IdentificationDataComponent should not show error when province is valid" duration="5100"/>
+    <testCase name="IdentificationDataComponent should show error when municipality is empty" duration="6272"/>
+    <testCase name="IdentificationDataComponent should not show error when municipality is valid" duration="6924"/>
+    <testCase name="IdentificationDataComponent should show error when address is empty" duration="7114"/>
+    <testCase name="IdentificationDataComponent should show error when address has less than 3 characters" duration="7746"/>
+    <testCase name="IdentificationDataComponent should show error when address has more than 200 characters" duration="7686"/>
+    <testCase name="IdentificationDataComponent should not show error when address is valid" duration="7457"/>
+    <testCase name="IdentificationDataComponent should show error when zipCode is empty" duration="9217"/>
+    <testCase name="IdentificationDataComponent should show error when zipCode has less or more than 5 characters" duration="9126"/>
+    <testCase name="IdentificationDataComponent should not show error when zipCode is valid" duration="9490"/>
+    <testCase name="IdentificationDataComponent should show error when contactPerson is empty" duration="10865"/>
+    <testCase name="IdentificationDataComponent should show error when address has less than 3 characters" duration="10048"/>
+    <testCase name="IdentificationDataComponent should show error when contactPerson has more than 100 characters" duration="9447"/>
+    <testCase name="IdentificationDataComponent should not show error when contactPerson is valid" duration="10273"/>
+    <testCase name="IdentificationDataComponent should show error when telf is empty" duration="7714"/>
+    <testCase name="IdentificationDataComponent should show error when telf has an incorrect format" duration="5385"/>
+    <testCase name="IdentificationDataComponent should not show error when telf is valid" duration="4743"/>
+    <testCase name="IdentificationDataComponent should select an option of dniSelect" duration="5438"/>
+    <testCase name="IdentificationDataComponent should select an option of socialReasonSelect" duration="5984"/>
+    <testCase name="IdentificationDataComponent should select an option of province" duration="6494"/>
+    <testCase name="IdentificationDataComponent should check errors" duration="6143"/>
+  </file>
+  <file path="C:\dev\proyect\infored-front\src\app\pages\external\requests\modify-request\update-data\update-data.component.spec.ts">
+    <testCase name="UpdateDataComponent should create update data" duration="3649"/>
+    <testCase name="UpdateDataComponent should downloadFile" duration="3382"/>
+    <testCase name="UpdateDataComponent should close modal" duration="4196"/>
+    <testCase name="UpdateDataComponent should get consults" duration="4811"/>
+    <testCase name="UpdateDataComponent should get requestId" duration="5964"/>
+    <testCase name="UpdateDataComponent should get consults true" duration="5805"/>
+    <testCase name="UpdateDataComponent should get dataTable" duration="6671"/>
+    <testCase name="UpdateDataComponent should get url params" duration="7470"/>
+    <testCase name="UpdateDataComponent should get requests communications" duration="8603"/>
+    <testCase name="UpdateDataComponent should get requests communications status" duration="8227"/>
+    <testCase name="UpdateDataComponent should get url params" duration="9128"/>
+    <testCase name="UpdateDataComponent should search data " duration="12001"/>
+    <testCase name="UpdateDataComponent should search data and redirect to RequestService if request not found" duration="14144"/>
+    <testCase name="UpdateDataComponent should edit request" duration="15382"/>
+    <testCase name="UpdateDataComponent should update correctly" duration="18030"/>
+    <testCase name="UpdateDataComponent should call status of changeTab()" duration="19167"/>
+    <testCase name="UpdateDataComponent should view a JSON object with strings" duration="20083"/>
+    <testCase name="UpdateDataComponent should modify consult" duration="18758"/>
+    <testCase name="UpdateDataComponent should update personal data" duration="11614"/>
+    <testCase name="UpdateDataComponent should init geored" duration="10859"/>
+    <testCase name="UpdateDataComponent should close request" duration="12825"/>
+    <testCase name="UpdateDataComponent should goToRequestData" duration="8554"/>
+  </file>
+</testExecutions>

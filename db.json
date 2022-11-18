@@ -1,0 +1,997 @@
+{
+    "faqs": [
+        {
+            "id": "1",
+            "title": "¿Qué es ...?",
+            "answer": "",
+            "subitems": [
+                {
+                    "id": "1.1",
+                    "title": "El tipo de petición (Servicios u Otros)",
+                    "answer": "<p>Los tipos de peticion susceptibles de seleccionarse son:</p><br><p>Servicios: Peticiones relativas a actuaciones urbanisticas o construcciones de infraestructuras lineales.Peticiones para las cuales se solicitará  posteriormente el cálculo de las zonas de influencia y/o cruzamientos de tendidos eléctricos o no eléctricos.<br><p>Otros: Cualquier otro tipo de petición que no se pueda englobar bajo el tipo de petición Servicios.</p>"
+                },
+                {
+                    "id": "1.2",
+                    "title": "El motivo de la petición.",
+                    "answer": "<p>Los motivos de las peticiones susceptibles de seleccionarse son los mostrados por el sistema, tales como Ferrocarril, Gaseoducto,... identifican el tipo de actuación urbanística o construcción de infraestructura línea que se proyecta construir para las peticiones de tipo Servicios que se está registrando.</p>"
+                },
+                {
+                    "id": "1.3",
+                    "title": "La zona geográfica de la consulta.",
+                    "answer": "<p>Se corresponderá con un cuadrilátero definido, bien a través de las coordenadas UTM establecidas (coordenadas X e Y mínimas y máximas) o bien a través de la identificación grafica del cuadrilátero sobre el mapa de España (mapa a mano alzada).</p>"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "¿Cómo puedo ...?",
+            "answer": "",
+            "subitems": [
+                {
+                    "id": "2.1",
+                    "title": "Registrar una petición.",
+                    "answer": "<p>El registro de una petición se deberá realizar desde la opción de menú Registrar petición.</p><br><p>Deberá cumplimentar toda la información de carácter obligatorio (información marcada con un asterisco).</p><br><p>La información a cumplimentar se corresponderá con un bloque correspondiente a datos identificativos (número de documento, razón social, etc) y otro bloque correspondiente a los datos propios de la petición.</p><br><br><p>Tipo de petición.</p><br><p>Servicios: Peticiones relativas a actuaciones urbanísticas o construcciones de infraestructuras lineales para las cuales se solicitará posteriormente el cálculo de las zonas de influencia y/o cruzamientos de tendidos eléctricos o no eléctricos.</p><br><p>Otros: Cualquier otro tipo de petición que no se pueda englobar bajo el tipo de petición Servicios.</p><br><br><p>Motivo de la petición</p><br><p>Identifican el tipo de actuación urbanística o construcción de infraestructura línea que se proyecta construir para las peticiones de tipo Servicios que se está registrando.</p><br><br><p>Asunto</p><br><p>Breve descriptivo del asunto de la consulta.</p><br><br><p>Zona geográfica de consulta (obligatorio para peticiones de tipo Servicio).</p><br><p>Se corresponderá con un cuadrilátero definido, bien a través de las coordenadas UTM establecidas (coordenadas X e Y mínimas y máximas) o bien a través de la identificación grafica del cuadrilátero sobre el mapa de España (mapa a mano alzada).</p><br><br><p>Tras el registro de la petición, el sistema le enviará un Mail a su cuenta de correo, verificando el correcto registro de la petición, siendo posteriormente analizada por el sistema (o técnico de R.E.E).</p><br><br><p>Las distintas respuestas o solicitudes le serán comunicadas vía mail.</p><br><br><p>Ante cualquier ruego o pregunta, podrá dirigirse al buzón mantenimientolineas@ree.es indicando la referencia del petición que habrá recibido (Ej. PELI-L-XX-XXXXX)</p>"
+                },
+                {
+                    "id": "2.2",
+                    "title": "Consultar mis solicitudes de información.",
+                    "answer": "<p>La consulta de sus peticiones las podrá realizar desde la opción de menú Consultar petición.</p><br><p>Será necesario que se identifique cumplimentando al menos tres de los filtros de búsqueda ofertados, por ejemplo, su número de documento, teléfono y mail, pudiendo visualizar en el listado inferior todas las peticiones que cumplen dichos filtros de búsqueda.</p><br><p>Tras la selección de una de las peticiones listadas, podrá:</p><ul><li type='disc'>Visualizar su detalle realizando doble clic sobre la misma o pulsando el botón Ver Detalle.</li><li type='disc'>Eliminarla.</li><li type='disc'>Completarla. Completar la petición solo estará posibilitado si ha recibido previamente un mail indicando que debe realizar alguna acción sobre la petición. En este supuesto, se le mostrará un nuevo formulario con la información que le has sido requerida para el correcto tratamiento de la petición.</li></ul>"
+                },
+                {
+                    "id": "2.3",
+                    "title": "Modificar una solicitud de información.",
+                    "answer": "<p>La modificación de una petición la podrá realizar desde la opción de menú Consultar petición.</p><br><p>Será necesario que se identifique cumplimentando al menos tres de los filtros de búsqueda ofertados, por ejemplo, su número de documento, teléfono y mail, pudiendo visualizar en el listado inferior todas las peticiones que cumplen dichos filtros de búsqueda.</p><br><p>Tras la selección de una de las peticiones listadas, podrá modificar su teléfono, mail o códigos de referencia y expediente desde el detalle de la petición, detalle al cual podrá acceder realizando doble clic sobre la misma o pulsando el botón Ver Detalle.</p><br><p>Tras adecuar los nuevos valores, deberá pulsar el botón Modificar para que la adecuación sea definitiva.</p>"
+                },
+                {
+                    "id": "2.4",
+                    "title": "Eliminar una solicitud de información.",
+                    "answer": "<p>La eliminación de una petición la podrá realizar desde la opción de menú Consultar petición.</p><br><p>Será necesario que se identifique cumplimentando al menos tres de los filtros de búsqueda ofertados, por ejemplo, su número de documento, teléfono y mail, pudiendo visualizar en el listado inferior todas las peticiones que cumplen dichos filtros de búsqueda.</p><br><p>Tras la selección de una de las peticiones listadas, podrá eliminarla pulsando el botón Eliminar situado en la parte inferior del listado.</p><br><p>La eliminación de la petición implicará la paralización de cualquier análisis que se estuviera haciendo sobre la misma por parte del sistema o técnico.</p>"
+                },
+                {
+                    "id": "2.5",
+                    "title": "Solicitar información relativa a Zonas de Influencía  o Cruzamientos (eléctricos y no eléctricos).",
+                    "answer": "<p>La solicitud de información relativa a zonas de influencia o cruzamientos eléctricos o no eléctricos requerirá la realización de las siguientes acciones por su parte.</p><br><ol><li>1. Registrar una petición de tipo Servicios (consolte el apartado ¿Cómo puedo?. Registra una petición, para más información).</li><br><li>2. Tras el registro de la petición, el sistema procederá a su análisis, recibiendo un mail con la información correspondiente a las instalaciones propiedad de REE en la zona geográfica seleccionada.</li><br><li>3. Tras su recepción, deberá pulsar el enlace presente en el mail recibido (o acceder a la opción de menú Consultar petición y seleccionar la acción Completar). Enlace que le llevará a un formulario donde podrá solicitar la información correspondiente a: <br><ul><li type='disc'>Zonas de influencia. Seleccionando sobre qué vanos eléctricos desea se realice el cálculo.</li><li type='disc'>Cruzamientos eléctricos . Para este tipo de cruzamientos deberá, además de seleccionar los vanos en los que se producirá el cruzamiento, cumplimentar la información solicitada relativa a la tensión de su conductor, distancias del cruzamiento...</li><li type='disc'>Cruzamientos no eléctricos (Ej., carreteras). Para este tipo de cruzamientos deberá seleccionar los vanos en los que se producirá el cruzamiento, pudiendo cumplimentar un breve descriptivo del tipo de cruzamiento que se producirá así como anexar toda la documentación correspondiente al proyecto a realizar por su parte.</li></ul></li><br><li>4. Tras su solicitud, el sistema procederá a su análisis, enviándole un mail con el resultado del mismo. El tiempo de respuesta estará condicionado por el tipo y volumen de información solicitado.</li></ol>"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "¿Qué significa...?",
+            "answer": "",
+            "subitems": [
+                {}
+            ]
+        },
+        {
+            "id": "4",
+            "title": "He recibido un mail de REE. ¿Qué debo hacer ahora?",
+            "answer": "",
+            "subitems": [
+                {
+                    "id": "4.1",
+                    "title": "Mail que solicita  el cambio del motivo de la petición.",
+                    "answer": "<p>La recepción de este mail se debe al análisis de su petición por parte de un técnico de REE, técnico que tras su análisis considera que la petición debe tipificarse bajo un motivo distinto del seleccionado inicialmente por ustedes a fin de poder tratar la petición satisfactoriamente.</p><br><p>La adecuación de la petición por su parte la podrá realizar, bien pulsando el enlace presente en el mail, bien accediendo a la opción de menú Consultar petición  y pulsando la acción Completar.</p><br><p>En ambas opciones, se le mostrará un formulario donde deberá confirmar el nuevo motivo de la petición.</p><br><p>Una vez adecuada la petición, el sistema procederá a su análisis comunicándole vía mail la resolución de la misma.</p>"
+                },
+                {
+                    "id": "4.2",
+                    "title": "Mail que solicita el cambio del nivel de información de cruzamiento.",
+                    "answer": "<p>La recepción de este mail se debe al análisis de su petición por parte de un técnico de REE, técnico que tras su análisis considera que la petición debe tipificarse bajo un tipo de cruzamiento distinto del seleccionado inicialmente por ustedes a fin de poder tratar la petición satisfactoriamente.</p><br><p>La adecuación de la petición por su parte la podrá realizar, bien pulsando el enlace presente en el mail, bien accediendo a la opción de menú Consultar petición  y pulsando la acción Completar.</p><br><p>En ambas opciones, se le mostrará un formulario donde deberá confirmar el nuevo tipo de cruzamiento así como la cumplimentación de la información requerida para cada cruzamiento que se produzca en su proyecto.</p><br><p>Deberá tener en consideración que:</p><ul><li type='disc'>Para cruzamientos eléctricos , además de seleccionar los vanos en los que se producirá el cruzamiento, deberá cumplimentar la información solicitada relativa a la tensión de su conductor, distancias del cruzamiento...</li><li type='disc'>Para cruzamientos no eléctricos (Ej., carreteras),deberá seleccionar los vanos en los que se producirá el cruzamiento, pudiendo cumplimentar un breve descriptivo del tipo de cruzamiento que se producirá así como anexar toda la documentación correspondiente al proyecto a realizar por su parte.</li></ul><br><p>Una vez adecuada la petición, el sistema procederá a su análisis comunicándole vía mail la resolución de la misma.</p>"
+                },
+                {
+                    "id": "4.3",
+                    "title": "Mail que solicita que adecue la solicitud de información.",
+                    "answer": "<p>La recepción de este mail se debe a análisis de su petición por parte de un técnico de REE, técnico que para el correcto tratamiento de su solicitud requiere de un mayor nivel de información.</p><br><p>La información que se le solicita se encuentra descrita en la carta adjunta al mail.</p><br><p>La documentación solicitada la podrá anexar a la petición, bien pulsando el enlace presente en el mail, bien accediendo a la opción de menú Consultar Petición  y pulsando la acción Completar.</p><br><p>En ambas opciones, se le mostrará un formulario donde podrá anexar todo tipo de documento. Documentos que contendrán la información solicitada por el técnico en la carta adjunta al  mail recibido.</p>"
+                },
+                {
+                    "id": "4.4",
+                    "title": "Mail que solicita el cambio del tipo de petición de Otros a Servicios.",
+                    "answer": "<p>La recepción de este mail se debe al análisis de su petición por parte de un técnico de REE, técnico que tras su análisis considera que la petición debe tipificarse como petición de tipo Servicios a tratarse de una petición relativa a actuaciones urbanísticas o construcciones de infraestructuras lineales.</p><br><p>La adecuación de la petición por su parte la podrá realizar, bien pulsando el enlace presente en el mail, bien accediendo a la opción de menú Consultar Petición  y pulsando la acción Completar.</p><br><p>En ambas opciones, se le mostrará un formulario donde deberá establecer el motivo de la petición y definir la zona geográfica de la consulta (consulte el apartado ¿Qué es?  para más información).</p><br><p>Una vez adecuada la petición, el sistema procederá a su análisis proporcionándole vía mail los servicios afectados propiedad de REE en la zona geográfica establecida.</p>"
+                },
+                {
+                    "id": "4.5",
+                    "title": "Mail que solicita que cambie el número de apoyos seleccionados.",
+                    "answer": "<p>La recepción de este mail se debe al análisis de su petición por parte de un técnico de REE, técnico que tras su análisis considera que el número de vanos seleccionados en la solicitud de cálculo de zonas de influencia excede del considerado como óptimo para el correcto funcionamiento del sistema.</p><br><p>La adecuación de la petición por su parte la podrá realizar, bien pulsando el enlace presente en el mail, bien accediendo a la opción de menú Consultar petición  y pulsando la acción Completar.</p><br><p>En ambas opciones, se le mostrará un formulario donde deberá reducir el número de vanos seleccionados a fin de poder responder a su petición.</p>"
+                },
+                {
+                    "id": "4.6",
+                    "title": "Mail con la información correspondiente a los servicios afectados.",
+                    "answer": "<p>La comunicación de los servicios afectados por el sistema llevará anexo el mapa correspondiente a la zona geográfica solicitada por usted así como una carta explicativa de las condiciones relativas a distancias aprobadas en sendos reglamentos de líneas aéreas de alta tensión (Real Decreto 3151/1968 y Real Decreto 223/2008).</p><br><p>Tras la recepción de esta comunicación, podrá cumplimentar su petición solicitando información relativa Zonas de Influencia o Cruzamientos.</p><br><p>Para ello, deberá pulsar el enlace presente en el mail recibido (o acceder a la opción de menú Consultar petición y seleccionar la acción Completar). Enlace que le llevará a un formulario donde podrá solicitar la información correspondiente a:</p><br><ul><li type='disc'>Zonas de influencia. Seleccionando sobre que vanos eléctricos desea se realice el cálculo.</li><li type='disc'>Cruzamientos eléctricos . Para este tipo de cruzamientos deberá, además de seleccionar los vanos en los que se producirá el cruzamiento, cumplimentar la información solicitada relativa a la tensión de su conductor, distancias del cruzamiento...</li><li type='disc'>Cruzamientos no eléctricos (Ej., carreteras). Para este tipo de cruzamientos deberá seleccionar los vanos en los que se producirá el cruzamiento, pudiendo cumplimentar un breve descriptivo del tipo de cruzamiento que se producirá así como anexar toda la documentación correspondiente al proyecto a realizar por su parte.</li></ul><br><p>Tras su solicitud, el sistema procederá a su análisis, enviándole un mail con el resultado del mismo. El tiempo de respuesta estará condicionado por el tipo y volumen de información solicitado.</p>"
+                }
+            ]
+        }
+    ],
+    "provincias": [
+        {
+            "desProvincia": "Álava",
+            "codProvincia": "01"
+        },
+        {
+            "desProvincia": "Albacete",
+            "codProvincia": "02"
+        },
+        {
+            "desProvincia": "Alicante",
+            "codProvincia": "03"
+        },
+        {
+            "desProvincia": "Almería",
+            "codProvincia": "04"
+        },
+        {
+            "desProvincia": "Asturias",
+            "codProvincia": "33"
+        },
+        {
+            "desProvincia": "Ávila",
+            "codProvincia": "05"
+        },
+        {
+            "desProvincia": "Badajoz",
+            "codProvincia": "06"
+        },
+        {
+            "desProvincia": "Barcelona",
+            "codProvincia": "08"
+        },
+        {
+            "desProvincia": "Burgos",
+            "codProvincia": "09"
+        },
+        {
+            "desProvincia": "Cáceres",
+            "codProvincia": "10"
+        },
+        {
+            "desProvincia": "Cádiz",
+            "codProvincia": "11"
+        },
+        {
+            "desProvincia": "Cantabria",
+            "codProvincia": "39"
+        },
+        {
+            "desProvincia": "Castellón/Castelló",
+            "codProvincia": "12"
+        },
+        {
+            "desProvincia": "Ceuta",
+            "codProvincia": "51"
+        },
+        {
+            "desProvincia": "Ciudad Real",
+            "codProvincia": "13"
+        },
+        {
+            "desProvincia": "Córdoba",
+            "codProvincia": "14"
+        },
+        {
+            "desProvincia": "Coruña, A",
+            "codProvincia": "15"
+        },
+        {
+            "desProvincia": "Cuenca",
+            "codProvincia": "16"
+        },
+        {
+            "desProvincia": "Girona",
+            "codProvincia": "17"
+        },
+        {
+            "desProvincia": "Granada",
+            "codProvincia": "18"
+        },
+        {
+            "desProvincia": "Guadalajara",
+            "codProvincia": "19"
+        },
+        {
+            "desProvincia": "Guipúzcoa",
+            "codProvincia": "20"
+        },
+        {
+            "desProvincia": "Huelva",
+            "codProvincia": "21"
+        },
+        {
+            "desProvincia": "Huesca",
+            "codProvincia": "22"
+        },
+        {
+            "desProvincia": "Islas Baleares",
+            "codProvincia": "07"
+        },
+        {
+            "desProvincia": "Jaén",
+            "codProvincia": "23"
+        },
+        {
+            "desProvincia": "La Rioja",
+            "codProvincia": "26"
+        },
+        {
+            "desProvincia": "Las Palmas",
+            "codProvincia": "35"
+        },
+        {
+            "desProvincia": "León",
+            "codProvincia": "24"
+        },
+        {
+            "desProvincia": "Lleida",
+            "codProvincia": "25"
+        },
+        {
+            "desProvincia": "Lugo",
+            "codProvincia": "27"
+        },
+        {
+            "desProvincia": "Madrid",
+            "codProvincia": "28"
+        },
+        {
+            "desProvincia": "Málaga",
+            "codProvincia": "29"
+        },
+        {
+            "desProvincia": "Melilla",
+            "codProvincia": "52"
+        },
+        {
+            "desProvincia": "Murcia",
+            "codProvincia": "30"
+        },
+        {
+            "desProvincia": "Navarra",
+            "codProvincia": "31"
+        },
+        {
+            "desProvincia": "Ourense",
+            "codProvincia": "32"
+        },
+        {
+            "desProvincia": "Palencia",
+            "codProvincia": "34"
+        },
+        {
+            "desProvincia": "Pontevedra",
+            "codProvincia": "36"
+        },
+        {
+            "desProvincia": "Salamanca",
+            "codProvincia": "37"
+        },
+        {
+            "desProvincia": "Santa Cruz de Tenerife",
+            "codProvincia": "38"
+        },
+        {
+            "desProvincia": "Segovia",
+            "codProvincia": "40"
+        },
+        {
+            "desProvincia": "Sevilla",
+            "codProvincia": "41"
+        },
+        {
+            "desProvincia": "Soria",
+            "codProvincia": "42"
+        },
+        {
+            "desProvincia": "Tarragona",
+            "codProvincia": "43"
+        },
+        {
+            "desProvincia": "Teruel",
+            "codProvincia": "44"
+        },
+        {
+            "desProvincia": "Toledo",
+            "codProvincia": "45"
+        },
+        {
+            "desProvincia": "Valencia/València",
+            "codProvincia": "46"
+        },
+        {
+            "desProvincia": "Valladolid",
+            "codProvincia": "47"
+        },
+        {
+            "desProvincia": "Vizcaya",
+            "codProvincia": "48"
+        },
+        {
+            "desProvincia": "Zamora",
+            "codProvincia": "49"
+        },
+        {
+            "desProvincia": "Zaragoza",
+            "codProvincia": "50"
+        }
+    ],
+    "municipios": [
+        {
+            "desMunicipio": "Agost",
+            "codMunicipio": "03002"
+        },
+        {
+            "desMunicipio": "Agres",
+            "codMunicipio": "03003"
+        },
+        {
+            "desMunicipio": "Aigües",
+            "codMunicipio": "03004"
+        },
+        {
+            "desMunicipio": "Albatera",
+            "codMunicipio": "03005"
+        },
+        {
+            "desMunicipio": "Alcalalí",
+            "codMunicipio": "03006"
+        },
+        {
+            "desMunicipio": "Alcocer de Planes",
+            "codMunicipio": "03007"
+        },
+        {
+            "desMunicipio": "Alcoleja",
+            "codMunicipio": "03008"
+        },
+        {
+            "desMunicipio": "Alcoy/Alcoi",
+            "codMunicipio": "03009"
+        },
+        {
+            "desMunicipio": "Alfafara",
+            "codMunicipio": "03010"
+        },
+        {
+            "desMunicipio": "Alfàs del Pi, l'",
+            "codMunicipio": "03011"
+        },
+        {
+            "desMunicipio": "Algorfa",
+            "codMunicipio": "03012"
+        },
+        {
+            "desMunicipio": "Algueña",
+            "codMunicipio": "03013"
+        },
+        {
+            "desMunicipio": "Alicante/Alacant",
+            "codMunicipio": "03014"
+        },
+        {
+            "desMunicipio": "Almoradí",
+            "codMunicipio": "03015"
+        },
+        {
+            "desMunicipio": "Almudaina",
+            "codMunicipio": "03016"
+        },
+        {
+            "desMunicipio": "Alqueria d'Asnar, l'",
+            "codMunicipio": "03017"
+        },
+        {
+            "desMunicipio": "Altea",
+            "codMunicipio": "03018"
+        },
+        {
+            "desMunicipio": "Aspe",
+            "codMunicipio": "03019"
+        },
+        {
+            "desMunicipio": "Atzúbia, l'",
+            "codMunicipio": "03001"
+        },
+        {
+            "desMunicipio": "Balones",
+            "codMunicipio": "03020"
+        },
+        {
+            "desMunicipio": "Banyeres de Mariola",
+            "codMunicipio": "03021"
+        },
+        {
+            "desMunicipio": "Benasau",
+            "codMunicipio": "03022"
+        },
+        {
+            "desMunicipio": "Beneixama",
+            "codMunicipio": "03023"
+        },
+        {
+            "desMunicipio": "Benejúzar",
+            "codMunicipio": "03024"
+        },
+        {
+            "desMunicipio": "Benferri",
+            "codMunicipio": "03025"
+        },
+        {
+            "desMunicipio": "Beniarbeig",
+            "codMunicipio": "03026"
+        },
+        {
+            "desMunicipio": "Beniardá",
+            "codMunicipio": "03027"
+        },
+        {
+            "desMunicipio": "Beniarrés",
+            "codMunicipio": "03028"
+        },
+        {
+            "desMunicipio": "Benidoleig",
+            "codMunicipio": "03030"
+        },
+        {
+            "desMunicipio": "Benidorm",
+            "codMunicipio": "03031"
+        },
+        {
+            "desMunicipio": "Benifallim",
+            "codMunicipio": "03032"
+        },
+        {
+            "desMunicipio": "Benifato",
+            "codMunicipio": "03033"
+        },
+        {
+            "desMunicipio": "Benigembla",
+            "codMunicipio": "03029"
+        },
+        {
+            "desMunicipio": "Benijófar",
+            "codMunicipio": "03034"
+        },
+        {
+            "desMunicipio": "Benilloba",
+            "codMunicipio": "03035"
+        },
+        {
+            "desMunicipio": "Benillup",
+            "codMunicipio": "03036"
+        },
+        {
+            "desMunicipio": "Benimantell",
+            "codMunicipio": "03037"
+        },
+        {
+            "desMunicipio": "Benimarfull",
+            "codMunicipio": "03038"
+        },
+        {
+            "desMunicipio": "Benimassot",
+            "codMunicipio": "03039"
+        },
+        {
+            "desMunicipio": "Benimeli",
+            "codMunicipio": "03040"
+        },
+        {
+            "desMunicipio": "Benissa",
+            "codMunicipio": "03041"
+        },
+        {
+            "desMunicipio": "Benitachell/Poble Nou de Benitatxell, el",
+            "codMunicipio": "03042"
+        },
+        {
+            "desMunicipio": "Biar",
+            "codMunicipio": "03043"
+        },
+        {
+            "desMunicipio": "Bigastro",
+            "codMunicipio": "03044"
+        },
+        {
+            "desMunicipio": "Bolulla",
+            "codMunicipio": "03045"
+        },
+        {
+            "desMunicipio": "Busot",
+            "codMunicipio": "03046"
+        },
+        {
+            "desMunicipio": "Callosa d'en Sarrià",
+            "codMunicipio": "03048"
+        },
+        {
+            "desMunicipio": "Callosa de Segura",
+            "codMunicipio": "03049"
+        },
+        {
+            "desMunicipio": "Calp",
+            "codMunicipio": "03047"
+        },
+        {
+            "desMunicipio": "Campello, el",
+            "codMunicipio": "03050"
+        },
+        {
+            "desMunicipio": "Campo de Mirra/Camp de Mirra, el",
+            "codMunicipio": "03051"
+        },
+        {
+            "desMunicipio": "Cañada",
+            "codMunicipio": "03052"
+        },
+        {
+            "desMunicipio": "Castalla",
+            "codMunicipio": "03053"
+        },
+        {
+            "desMunicipio": "Castell de Castells",
+            "codMunicipio": "03054"
+        },
+        {
+            "desMunicipio": "Castell de Guadalest, el",
+            "codMunicipio": "03075"
+        },
+        {
+            "desMunicipio": "Catral",
+            "codMunicipio": "03055"
+        },
+        {
+            "desMunicipio": "Cocentaina",
+            "codMunicipio": "03056"
+        },
+        {
+            "desMunicipio": "Confrides",
+            "codMunicipio": "03057"
+        },
+        {
+            "desMunicipio": "Cox",
+            "codMunicipio": "03058"
+        },
+        {
+            "desMunicipio": "Crevillent",
+            "codMunicipio": "03059"
+        },
+        {
+            "desMunicipio": "Daya Nueva",
+            "codMunicipio": "03061"
+        },
+        {
+            "desMunicipio": "Daya Vieja",
+            "codMunicipio": "03062"
+        },
+        {
+            "desMunicipio": "Dénia",
+            "codMunicipio": "03063"
+        },
+        {
+            "desMunicipio": "Dolores",
+            "codMunicipio": "03064"
+        },
+        {
+            "desMunicipio": "Elche/Elx",
+            "codMunicipio": "03065"
+        },
+        {
+            "desMunicipio": "Elda",
+            "codMunicipio": "03066"
+        },
+        {
+            "desMunicipio": "Facheca",
+            "codMunicipio": "03067"
+        },
+        {
+            "desMunicipio": "Famorca",
+            "codMunicipio": "03068"
+        },
+        {
+            "desMunicipio": "Finestrat",
+            "codMunicipio": "03069"
+        },
+        {
+            "desMunicipio": "Fondó de les Neus, el/Hondón de las Nieves",
+            "codMunicipio": "03077"
+        },
+        {
+            "desMunicipio": "Formentera del Segura",
+            "codMunicipio": "03070"
+        },
+        {
+            "desMunicipio": "Gaianes",
+            "codMunicipio": "03072"
+        },
+        {
+            "desMunicipio": "Gata de Gorgos",
+            "codMunicipio": "03071"
+        },
+        {
+            "desMunicipio": "Gorga",
+            "codMunicipio": "03073"
+        },
+        {
+            "desMunicipio": "Granja de Rocamora",
+            "codMunicipio": "03074"
+        },
+        {
+            "desMunicipio": "Guardamar del Segura",
+            "codMunicipio": "03076"
+        },
+        {
+            "desMunicipio": "Hondón de los Frailes",
+            "codMunicipio": "03078"
+        },
+        {
+            "desMunicipio": "Ibi",
+            "codMunicipio": "03079"
+        },
+        {
+            "desMunicipio": "Jacarilla",
+            "codMunicipio": "03080"
+        },
+        {
+            "desMunicipio": "Jávea/Xàbia",
+            "codMunicipio": "03082"
+        },
+        {
+            "desMunicipio": "Jijona/Xixona",
+            "codMunicipio": "03083"
+        },
+        {
+            "desMunicipio": "Llíber",
+            "codMunicipio": "03085"
+        },
+        {
+            "desMunicipio": "Lorcha/Orxa, l'",
+            "codMunicipio": "03084"
+        },
+        {
+            "desMunicipio": "Millena",
+            "codMunicipio": "03086"
+        },
+        {
+            "desMunicipio": "Monforte del Cid",
+            "codMunicipio": "03088"
+        },
+        {
+            "desMunicipio": "Monóvar/Monòver",
+            "codMunicipio": "03089"
+        },
+        {
+            "desMunicipio": "Montesinos, Los",
+            "codMunicipio": "03903"
+        },
+        {
+            "desMunicipio": "Murla",
+            "codMunicipio": "03091"
+        },
+        {
+            "desMunicipio": "Muro de Alcoy",
+            "codMunicipio": "03092"
+        },
+        {
+            "desMunicipio": "Mutxamel",
+            "codMunicipio": "03090"
+        },
+        {
+            "desMunicipio": "Novelda",
+            "codMunicipio": "03093"
+        },
+        {
+            "desMunicipio": "Nucia, la",
+            "codMunicipio": "03094"
+        },
+        {
+            "desMunicipio": "Ondara",
+            "codMunicipio": "03095"
+        },
+        {
+            "desMunicipio": "Onil",
+            "codMunicipio": "03096"
+        },
+        {
+            "desMunicipio": "Orba",
+            "codMunicipio": "03097"
+        },
+        {
+            "desMunicipio": "Orihuela",
+            "codMunicipio": "03099"
+        },
+        {
+            "desMunicipio": "Orxeta",
+            "codMunicipio": "03098"
+        },
+        {
+            "desMunicipio": "Parcent",
+            "codMunicipio": "03100"
+        },
+        {
+            "desMunicipio": "Pedreguer",
+            "codMunicipio": "03101"
+        },
+        {
+            "desMunicipio": "Pego",
+            "codMunicipio": "03102"
+        },
+        {
+            "desMunicipio": "Penàguila",
+            "codMunicipio": "03103"
+        },
+        {
+            "desMunicipio": "Petrer",
+            "codMunicipio": "03104"
+        },
+        {
+            "desMunicipio": "Pilar de la Horadada",
+            "codMunicipio": "03902"
+        },
+        {
+            "desMunicipio": "Pinós, el/Pinoso",
+            "codMunicipio": "03105"
+        },
+        {
+            "desMunicipio": "Planes",
+            "codMunicipio": "03106"
+        },
+        {
+            "desMunicipio": "Poblets, els",
+            "codMunicipio": "03901"
+        },
+        {
+            "desMunicipio": "Polop",
+            "codMunicipio": "03107"
+        },
+        {
+            "desMunicipio": "Quatretondeta",
+            "codMunicipio": "03060"
+        },
+        {
+            "desMunicipio": "Rafal",
+            "codMunicipio": "03109"
+        },
+        {
+            "desMunicipio": "Ràfol d'Almúnia, el",
+            "codMunicipio": "03110"
+        },
+        {
+            "desMunicipio": "Redován",
+            "codMunicipio": "03111"
+        },
+        {
+            "desMunicipio": "Relleu",
+            "codMunicipio": "03112"
+        },
+        {
+            "desMunicipio": "Rojales",
+            "codMunicipio": "03113"
+        },
+        {
+            "desMunicipio": "Romana, la",
+            "codMunicipio": "03114"
+        },
+        {
+            "desMunicipio": "Sagra",
+            "codMunicipio": "03115"
+        },
+        {
+            "desMunicipio": "Salinas",
+            "codMunicipio": "03116"
+        },
+        {
+            "desMunicipio": "San Fulgencio",
+            "codMunicipio": "03118"
+        },
+        {
+            "desMunicipio": "San Isidro",
+            "codMunicipio": "03904"
+        },
+        {
+            "desMunicipio": "San Miguel de Salinas",
+            "codMunicipio": "03120"
+        },
+        {
+            "desMunicipio": "San Vicente del Raspeig/Sant Vicent del Raspeig",
+            "codMunicipio": "03122"
+        },
+        {
+            "desMunicipio": "Sanet y Negrals",
+            "codMunicipio": "03117"
+        },
+        {
+            "desMunicipio": "Sant Joan d'Alacant",
+            "codMunicipio": "03119"
+        },
+        {
+            "desMunicipio": "Santa Pola",
+            "codMunicipio": "03121"
+        },
+        {
+            "desMunicipio": "Sax",
+            "codMunicipio": "03123"
+        },
+        {
+            "desMunicipio": "Sella",
+            "codMunicipio": "03124"
+        },
+        {
+            "desMunicipio": "Senija",
+            "codMunicipio": "03125"
+        },
+        {
+            "desMunicipio": "Tàrbena",
+            "codMunicipio": "03127"
+        },
+        {
+            "desMunicipio": "Teulada",
+            "codMunicipio": "03128"
+        },
+        {
+            "desMunicipio": "Tibi",
+            "codMunicipio": "03129"
+        },
+        {
+            "desMunicipio": "Tollos",
+            "codMunicipio": "03130"
+        },
+        {
+            "desMunicipio": "Tormos",
+            "codMunicipio": "03131"
+        },
+        {
+            "desMunicipio": "Torremanzanas/Torre de les Maçanes, la",
+            "codMunicipio": "03132"
+        },
+        {
+            "desMunicipio": "Torrevieja",
+            "codMunicipio": "03133"
+        },
+        {
+            "desMunicipio": "Vall d'Alcalà, la",
+            "codMunicipio": "03134"
+        },
+        {
+            "desMunicipio": "Vall d'Ebo, la",
+            "codMunicipio": "03135"
+        },
+        {
+            "desMunicipio": "Vall de Gallinera",
+            "codMunicipio": "03136"
+        },
+        {
+            "desMunicipio": "Vall de Laguar, la",
+            "codMunicipio": "03137"
+        },
+        {
+            "desMunicipio": "Verger, el",
+            "codMunicipio": "03138"
+        },
+        {
+            "desMunicipio": "Villajoyosa/Vila Joiosa, la",
+            "codMunicipio": "03139"
+        },
+        {
+            "desMunicipio": "Villena",
+            "codMunicipio": "03140"
+        },
+        {
+            "desMunicipio": "Xaló",
+            "codMunicipio": "03081"
+        }
+    ],
+    "tipoProyecto": [
+        {
+            "id": "1",
+            "viewValue": "Consulta-Proyecto"
+        },
+        {
+            "id": "2",
+            "viewValue": "Consulta-Obra"
+        },
+        {
+            "id": "3",
+            "viewValue": "Modificaciones de Instalaciones de Red Eléctrica"
+        },
+        {
+            "id": "4",
+            "viewValue": "Renovables"
+        },
+        {
+            "id": "5",
+            "viewValue": "Otros"
+        },
+        {
+            "id": "6",
+            "viewValue": "PGOU"
+        }
+    ],
+    "opcionesConsultaProyecto": [
+        {
+            "id": "9",
+            "viewValue": "Canalización agua / pluviales / fluviales"
+        },
+        {
+            "id": "10",
+            "viewValue": "Carretera / autovía"
+        },
+        {
+            "id": "11",
+            "viewValue": "Ferrocarril"
+        },
+        {
+            "id": "12",
+            "viewValue": "Gasoducto / Oleoducto"
+        },
+        {
+            "id": "13",
+            "viewValue": "Infraestructura eléctrica / telecomunicaciones o teleférico"
+        },
+        {
+            "id": "14",
+            "viewValue": "Instalación Industrial"
+        },
+        {
+            "id": "15",
+            "viewValue": "Plan Urbanístico / edificación"
+        }
+    ],
+    "opcionesConsultaObra": [
+        {
+            "id": "16",
+            "viewValue": "Canalización agua / pluviales / fluviales"
+        },
+        {
+            "id": "17",
+            "viewValue": "Carretera / autovía"
+        },
+        {
+            "id": "18",
+            "viewValue": "Ferrocarril"
+        },
+        {
+            "id": "19",
+            "viewValue": "Gasoducto / Oleoducto"
+        },
+        {
+            "id": "20",
+            "viewValue": "Infraestructura eléctrica / telecomunicaciones o teleférico"
+        },
+        {
+            "id": "21",
+            "viewValue": "Instalación Industrial"
+        },
+        {
+            "id": "22",
+            "viewValue": "Plan Urbanístico / edificación"
+        }
+    ],
+    "modificacionInstalaciones": [
+        {
+            "id": "23",
+            "viewValue": "Descargos"
+        },
+        {
+            "id": "24",
+            "viewValue": "Supervisiones"
+        },
+        {
+            "id": "25",
+            "viewValue": "Modificaciones subterráneo"
+        },
+        {
+            "id": "26",
+            "viewValue": "Modificaciones aéreo"
+        },
+        {
+            "id": "27",
+            "viewValue": "Modificaciones aéreo-subterráneo"
+        }
+    ],
+    "renovables": [
+    {   
+        "id": "28",
+        "viewValue": "Parque Eólico"
+    },
+    {
+        "id": "29",
+        "viewValue": "Parque Fotovoltaico"
+    }
+    ]
+}
